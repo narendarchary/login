@@ -61,18 +61,17 @@
             </plugin>
         </plugins>
     </build>
-	
 	<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>Releases</name>
-			<url>http://35.188.87.187:8081/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Internal Snaposhot releases</name>
-			<url>http://35.188.87.187:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
+	<repository>
+		<id>deployment</id>
+		<name>Releases</name>
+		<url>http://35.188.87.187:8081/repository/maven-releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>deployment</id>
+		<name>Internal Snaposhot releases</name>
+		<url>http://35.188.87.187:8081/nexus/content/repositories/snapshots/</url>
+	</snapshotRepository>
 	</distributionManagement>
 
 </project>
