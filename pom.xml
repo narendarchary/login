@@ -69,7 +69,7 @@
 	</repository>
 	<snapshotRepository>
 		<id>deployment</id>
-		<name>Internal Snaposhot releases</name>
+		<name>Snaposhot</name>
 		<url>http://35.188.87.187:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 	</distributionManagement>
